@@ -42,3 +42,12 @@ resource "azurerm_resource_group" "resource_gp_demo-dela" {
     "Owner" = "Alkan Mustafa"
   }
 }
+
+resource "azurerm_resource_group" "resource_gp_demo-depoiola" {
+  name = "testrgroupalaooaa"
+  location = "${var.region}"
+  tags = {
+    "Owner" = "Alkan Mustafa"
+  }
+}
+
